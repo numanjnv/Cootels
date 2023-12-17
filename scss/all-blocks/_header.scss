@@ -1,0 +1,35 @@
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 0 32px;
+        list-style: none;
+    }
+
+    &__link {
+        text-decoration: none;
+        color: #192252;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__btn {
+        padding: 14px 16px;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        background: #0E1734;
+    }
+}

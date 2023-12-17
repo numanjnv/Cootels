@@ -1,0 +1,61 @@
+.container {
+    max-width: 100%;
+    width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+
+
+}
+
+
+
+
+.section {
+    display: flex;
+    padding: 80px 120px;
+    align-items: center;
+
+    &-title {
+        padding: 100px 0 100px 126px;
+
+    }
+
+    &-title>h2 {
+        width: 690px;
+        color: #192252;
+        font-family: Montserrat;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        letter-spacing: -0.36px;
+
+
+        &-title>p {
+            width: 554px;
+            color: #848FAC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+
+        }
+    }
+
+    &-title>button {
+        padding: 16px 32px;
+        margin-top: 32px;
+        border-radius: 4px;
+        border: transparent;
+        background: #0E1734;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+
+}

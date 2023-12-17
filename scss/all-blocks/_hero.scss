@@ -1,0 +1,45 @@
+.hero {
+    &-box {
+        margin-top: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &-texts {
+        width: 547px;
+
+        h1 {
+            color: #192252;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 150%;
+            letter-spacing: -0.48px;
+            margin-bottom: 24px;
+        }
+
+        p {
+            width: 485px;
+            color: #848FAC;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+            margin-bottom: 32px;
+        }
+
+        a {
+            text-decoration: none;
+            padding: 16px 32px;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            border-radius: 4px;
+            background: #0E1734;
+        }
+    }
+}
